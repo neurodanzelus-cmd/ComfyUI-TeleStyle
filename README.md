@@ -4,6 +4,10 @@ An unofficial, streamlined, and highly optimized ComfyUI implementation of [Tele
 
 This node is specifically designed for **Video Style Transfer** using the **Wan2.1-T2V** architecture and TeleStyle custom weights. Unlike the original repository, this implementation strips away all heavy image-editing components (Qwen weights) to focus purely on video generation with speed/quality.
 
+
+
+
+
 ## ✨ Key Features
 
 - **High Performance**:
@@ -11,6 +15,26 @@ This node is specifically designed for **Video Style Transfer** using the **Wan2
   - **Fast Mode**: Optimized memory management with aggressive cache cleanup to prevent conflicts between CPU offloading and GPU processing.
 
 - **Simplified Workflow**: No need for complex external text encoding nodes. The model uses pre-computed stylistic embeddings (prompt_embeds.pth) for maximum efficiency.
+
+##
+
+<table style="width: 100%;">
+  <tr>
+    <td style="width: 50%; text-align: center;">
+      <video src="https://github.com/user-attachments/assets/3d6310fa-f1c4-4c04-bf34-1fe0c05d3457" width="100%" controls></video>
+    </td>
+    <td style="width: 50%; text-align: center;">
+      <video src="https://github.com/user-attachments/assets/e65001fc-f181-4da7-bd97-4f36e7700ffe" width="100%" controls></video>
+     <td style="width: 50%; text-align: center;">
+      <video src="https://github.com/user-attachments/assets/11c504e5-bfee-4847-846f-87f1a567dfb8" width="100%" controls></video>
+    </td>
+    </td>
+  </tr>
+</table>
+
+
+
+
 
 ## 📦 Installation
 
