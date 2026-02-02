@@ -4,7 +4,7 @@
 
 #
 
-An unofficial, streamlined, and highly optimized ComfyUI implementation of [TeleStyle](https://github.com/Tele-AI/TeleStyle).
+An unofficial, streamlined, and highly optimized (~6gb) ComfyUI implementation of [TeleStyle](https://github.com/Tele-AI/TeleStyle).
 
 This node is specifically designed for **Video Style Transfer** using the **Wan2.1-T2V** architecture and TeleStyle custom weights. Unlike the original repository, this implementation strips away all heavy image-editing components (Qwen weights) to focus purely on video generation with speed/quality for low-end PCs.
 
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 This node requires specific weights placed in the `ComfyUI/models/telestyle_models/` directory.
 
-The weights are downloaded automatically at the first run (~6gb)
+The weights are downloaded automatically at the first run
 
 **Directory Structure:**
 
