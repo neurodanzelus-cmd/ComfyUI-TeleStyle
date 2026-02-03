@@ -24,8 +24,13 @@ This node is specifically designed for **Video Style Transfer** using the **Wan2
 
 ##
 
+
+
 <table style="width: 100%;">
   <tr>
+    <td style="width: 50%; text-align: center;">
+      <video src="https://github.com/user-attachments/assets/e10c2435-fc72-46d4-bfa0-5203a74b2a93" width="100%" controls></video>
+    </td>
     <td style="width: 50%; text-align: center;">
       <video src="https://github.com/user-attachments/assets/3d6310fa-f1c4-4c04-bf34-1fe0c05d3457" width="100%" controls></video>
     </td>
