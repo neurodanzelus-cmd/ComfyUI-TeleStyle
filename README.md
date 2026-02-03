@@ -116,8 +116,8 @@ The main inference node.
 | `model` | Connect the output from the Loader |
 | `video_frames` | Input video batch (from Load Video or VHS_LoadVideo) |
 | `style_image` | A reference image to guide the style transfer |
-| `steps` | Inference steps (default: 10) |
-| `cfg` | Guidance scale (default: 1.5) |
+| `steps` | Inference steps (default: 12) |
+| `cfg` | Guidance scale (default: 1) |
 | `scheduler` | Choose your sampler (`FlowMatchEuler`, `DPM++`) |
 | `fast_mode` | Keep `True` for speed. Set to `False` for low-VRAM offloading (slower) |
 | `acceleration` | `default` - Standard PyTorch attention<br>`flash_attn` - Faster, requires compatible GPU<br>`sage_attn` - Ultra-fast, requires sageattention library |
