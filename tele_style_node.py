@@ -110,12 +110,12 @@ class TeleStyleVideoInference:
             "required": {
                 "model": ("TELE_STYLE_MODEL",),
                 "video_frames": ("IMAGE",), 
-                "steps": ("INT", {"default": 10, "min": 1, "max": 50}),
-                "cfg": ("FLOAT", {"default": 2.0, "min": 1.0, "max": 20.0, "step": 0.5}),
+                "steps": ("INT", {"default": 12, "min": 1, "max": 50}),
+                "cfg": ("FLOAT", {"default": 1.0, "min": 1.0, "max": 20.0, "step": 0.5}),
                 "seed": ("INT", {"default": 42}),
-                "scheduler": (["FlowMatchEuler", "UniPC", "DPM++"], {"default": "FlowMatchEuler"}),
+                "scheduler": (["FlowMatchEuler", "UniPC", "DPM++"], {"default": "DPM++"}),
                 "fast_mode": ("BOOLEAN", {"default": True}),
-                "enable_tiling": ("BOOLEAN", {"default": True}),
+                "enable_tiling": ("BOOLEAN", {"default": False}),
                 "acceleration": (["default", "flash_attn", "sage_attn", "mem_efficient"], {"default": "default"}),
             },
             "optional": {
