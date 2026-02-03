@@ -1,0 +1,10 @@
+diffusers>=0.29.0
+transformers
+huggingface_hub
+omegaconf
+safetensors
+ftfy
+regex
+torchvision
+opencv-python
+torch
