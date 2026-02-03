@@ -115,11 +115,11 @@ The main inference node.
 | `fast_mode` | Keep `True` for speed. Set to `False` for low-VRAM offloading (slower) |
 | `acceleration` | `default` - Standard PyTorch attention<br>`flash_attn` - Faster, requires compatible GPU<br>`sage_attn` - Ultra-fast, requires sageattention library |
 
-
 ___
-
-    
-
+## To-Do List
+- [x] Initial release
+- [ ] Consistency for very long videos 
+___
 Guys, I’d really appreciate any support right now. I’m in a tough spot:
 
 [![Boosty](https://img.shields.io/badge/Boosty-Support-orange?style=for-the-badge)](https://boosty.to/danzelus)
