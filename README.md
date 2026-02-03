@@ -118,6 +118,7 @@ The main inference node.
 ___
 ## To-Do List
 - [x] Initial release
+- [ ] More samplers
 - [ ] Consistency for very long videos 
 ___
 Guys, I’d really appreciate any support right now. I’m in a tough spot:
